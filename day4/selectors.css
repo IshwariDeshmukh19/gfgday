@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(43, 212, 228);
+
+}
+div{
+    background-color: rgb(45, 90, 238);
+}
+p{
+    background-color: rgb(237, 232, 85);
+}
+div ~ p{
+    background-color: blueviolet;
+}
+div+p{
+    background-color: lightpink;
+}
+
+input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+    margin-top: 50px;
+}
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightsalmon;
+    color: darkorchid;
+}
+h1::first-letter{
+    color: blueviolet;
+    font-size: xx-large;
+}
+h1::before
+{
+    /* window + semicolon for emoji */
+    content: "😊";
+}
+h1::after{
+    content:"";
+}

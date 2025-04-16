@@ -1,0 +1,27 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    background-color: darkmagenta;
+    color: beige;
+    margin: 100px;
+    padding: 40px;
+    border: 20px double darkred;
+    text-align: center;
+    border-radius: 50px;
+}
+p{
+    background-color: rgb(255, 0, 170);
+    color: rgb(15, 14, 1);
+    margin: 50px;
+    padding: 80px;
+    font-size: 40px;
+cursor: pointer;
+    transition: 5s;
+    border-radius: 10px;
+}
+p:hover{
+
+    font-size: 80px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,36 @@
+h3{
+background-color: black;
+color: aliceblue;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color:aliceblue
+    z-index: 1;
+  }
+  .dropdown a{
+    color: black;
+    display: block;
+  }
+.dropdown:hover{
+    display: inline;
+    
+  }
+  li{
+    display: inline-block;
+    position: relative;
+  }
+  .drop{
+    position: absolute;
+    display: none;
+  }
+  li:hover ul.drop{
+
+  display: block;
+
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
