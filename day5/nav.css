@@ -1,0 +1,14 @@
+body{
+    background:lightgoldenrodyellow;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: wheat;
+}
+div{
+    background-color: darkmagenta;
+}
+ul{
+    display: flex;
+}

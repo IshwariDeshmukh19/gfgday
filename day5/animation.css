@@ -1,0 +1,43 @@
+body{
+    background-color: violet;
+}
+.box
+{
+    background-color: darkred;
+    height: 150px;
+    width: 150px;
+    transition: 5s;
+    animation-name:gfg;
+    margin: top 300px;
+    margin-left: 500px;
+    animation-iteration-count: infinite;
+    
+}
+/* .box:hover{ */
+    /* background-color:blue; */
+    /* border-radius: 50%; 
+}*/
+ 
+@keyframes gfg{
+    0%
+    {
+        transform: scale(1) rotate( 0deg);
+        border-radius: 0%;
+    }
+    50%
+    {
+        transform: scale(1) rotate(180deg);
+        border-radius: 50%;
+        background-color: blue;
+    }
+    100%
+    {
+        transform: scale(3)rotate(306deg);
+        border-radius: 0%;
+
+    }
+
+}
+
+
+

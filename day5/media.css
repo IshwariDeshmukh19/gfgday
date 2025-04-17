@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(226, 177, 211);
+    
+}
+.z{
+    display: none;
+}
+@media(min-width : 0px) and (max-width : 400px)
+{
+    body{
+    background:darkblue;
+    #a{
+        display: block;
+    }
+}
+}
+@media(min-width: 401px) and (max-width : 800px)
+{
+    body{
+        background-color: aquamarine;
+    }
+    #b{
+        display: block;
+    }
+}
+@media(min-width: 801px)
+{
+    body{
+        background-color: rgb(228, 233, 158);
+    }
+    #c{
+        display: block;
+    }
+}

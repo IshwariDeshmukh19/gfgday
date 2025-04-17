@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+}
+.grid
+{
+    background-color: violet;
+    padding:  20px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  50px;
+}
+#two
+{
+    grid-row: span 3;
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -27,7 +27,8 @@
     background-color: yellow;
     width: 200px;
     position: absolute;
-    top: 50px;
+    top: 200px;
+    left: 100px;
     z-index: 2;
     left: 50px;
 }
