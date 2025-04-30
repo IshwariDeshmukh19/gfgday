@@ -1,0 +1,8 @@
+body{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+
+}

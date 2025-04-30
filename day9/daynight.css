@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: black;
+    width: 100px;
+      color: yellow;
+      font-size: 18px;
+      border-radius: 20px;
+      cursor: pointer;
+
+
+}
+.night
+{ 
+background-color: black;
+color: yellow;
+
+
+}
+.night button{
+
+    background-color: white;
+    color: darkblue;
+}
