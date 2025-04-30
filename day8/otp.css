@@ -1,0 +1,23 @@
+body{
+    background-color: darksalmon;
+    color: aqua;
+    text-align: center;
+
+}
+#s{
+    color: darkblue;
+    font-size: 40px;
+}
+button{
+    background-color: black;
+    color: yellow;
+    width: 150px;
+    height : 30px;
+     border-radius:20px;
+     transition:1s;
+}
+button:hover{
+    background-color:white;
+    color:brown;
+    cursor: pointer;
+}
