@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> give me the second hobby of 3rd player</h1>
+    <h2> fav hobby of dhawan is: <span></span></h2>
+    <h3> dhawan stays in : <span></span></h3>
+
+
+    <script>
+const players =[
+    {"name": "virat",
+        "age": 35,
+        "location":"delhi",
+        "hobbies":["playing", "swimming","reading"]
+    },{"name": "rohit",
+        "age":38,
+    },{
+        "name":"dhawan",
+        "hobbies": ["football","cooking","swimming","wrestling"],
+        "location" : {"city":"delhi"}
+    }
+]
+
+document.querySelectorAll('span')[0].textContent=(players[2].hobbies[2])
+document.querySelectorAll('span')[1].textContent=(players[2].location.city)
+
+
+
+    </script>
+    
+</body>
+</html>

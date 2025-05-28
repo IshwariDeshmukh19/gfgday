@@ -1,0 +1,13 @@
+body{
+    background: lightblue;
+    text-align: center;
+}
+div {
+ 
+    height: 300px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+}
+

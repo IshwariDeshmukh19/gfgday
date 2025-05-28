@@ -1,0 +1,26 @@
+*{
+    background-color: skyblue;
+    text-align: center;
+    color: darkblue;
+}
+
+div{
+    background: darkgrey;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 40%;
+    padding: 10px;
+
+}
+
+#b{
+    background: darkorange;
+    color: darkorange;
+}
+
+#c{
+    background: yellow;
+    color: yellow;
+}
